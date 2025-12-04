@@ -84,7 +84,7 @@ export class AuthLayout extends Component {
             <picture>
               <source srcSet={openstackLogoWebp} type="image/webp" />
               <img
-                alt="Rackspace OpenStack logo"
+                alt="VNPT OpenStack logo"
                 className={styles.logo}
                 src={openstackLogoPng}
               />
@@ -92,12 +92,12 @@ export class AuthLayout extends Component {
             <h2
               id="brand-title"
               className={styles.brandTitle}
-              aria-label="Rackspace OpenStack platform"
+              aria-label="VNPT OpenStack platform"
             >
-              Rackspace OpenStack
+              VNPT OpenStack
             </h2>
             <p className={styles.brandSubtitle} aria-describedby="brand-title">
-              Powered by openCenter
+              Powered by Cloud Center - VNPT IT
             </p>
           </div>
         </div>
